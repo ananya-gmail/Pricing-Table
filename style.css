@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+font-size: 6px;
+background-color: rgba(0, 0, 0, 0.842);
+}
+
+.wrapper{
+    margin-top: 10px;
+    text-align: center;
+    line-height:6px;
+
+}
+
+.wrapper h1{
+    font-size: 8px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    color: white;
+}
+.wrapper .abc{
+    width: 50%;
+    margin: 0auto 70px; 
+    text-align: center;
+    margin-left: 80px;
+    color: white;
+}
+.pricing_wrapper{
+    display: flex;
+}
+.pricing_wrapper .pricing_item{
+    margin: 15px;
+    width: 100px;
+    background-color: white;
+    height: 80px;
+}
+.pricing_wrapper .pricing_item .money{
+    font-size: 10px;
+    font-weight: 30px;
+    margin: 3px 4px;
+   
+}
+.pricing_wrapper .pricing_item h3{
+    color:  #4aca85;
+    font-size: 6px;
+    text-transform: uppercase;
+  
+}
+.pricing_wrapper .pricing_item a{
+    text-decoration: none;
+    color: Red;
+    background-color: #4aca85;
+    margin-top: 6px;
+}
